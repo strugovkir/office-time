@@ -406,48 +406,89 @@ img {
 }
 
 /*tabs*/
+/*tabs*/
 .tabs-header-item {
-display: inline-block;
-border: 1px solid #222;
-height: 45px;
-width: auto;
-margin: 0;
-}
-.tabs-content{
-  display: flex;
-  flex-wrap: wrap;
-  list-style-type: none;
-  padding: 0;
-  height: auto;
-  border: 1px solid;
-  margin-top: 0;
-}
-.announcement{
-  display: flex;
-  flex-shrink: 1;
-}
-.three-columns-layout{
-  display: flex;
+  display: inline-block;
+  border: 1px solid #222;
+  height: 45px;
+  width: auto;
+  margin: 0;
+  }
+  .tabs-content{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    height: auto;
+    border: 1px solid;
+    margin-top: 0;
+  }
+  .announcement{
+    display: flex;
+    flex-shrink: 1;
+  }
+  .three-columns-layout{
+    display: flex;
+    width: 932px;
+    margin-top: 13px;
+  }
+  .column{
+    width: 310px;
+  }
+  .highlighted-content{
+    margin-top: 32px;
+    margin-bottom: 12px;
+    margin-left: 22px;
+    border-bottom: 1px #222 solid;
+    width: 892px;
+    line-height: 40px;
+  }
+  .custom-list{
+    list-style-type: none;
+  }
+  .tabs-content-item {
+    display: none;
+  }
+  .tabs-content-item--active {
+    display: block;
+  }
+/*contacts*/
+.header-title p{
+  font-family: "Oxygen Mono", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 56px;
   width: 932px;
-  margin-top: 13px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 33px;
+  border-bottom: 1px solid #aaa;
+  border-top: 1px solid #aaa;
+  box-sizing: border-box;
+     
 }
-.column{
-  width: 310px;
+.form-title{
+  width: 612px;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 54px;
+  border-bottom: #666 solid 1px;
 }
-.highlighted-content{
-  margin-top: 32px;
-  margin-bottom: 12px;
-  margin-left: 22px;
-  border-bottom: 1px #222 solid;
-  width: 892px;
-  line-height: 40px;
+.container2{
+  width: auto;
+  height: 490px;
+  padding: 0 0 20px 20px;
+  display:flex;
 }
-.custom-list{
-  list-style-type: none;
+#contactform{
+  margin-top: 22px;
+  width: 612px;
 }
-.tabs-content-item {
-  display: none;
+.right-side-bar{
+  border: 1px #aaa solid;
+  border-radius: 4px;
+
 }
-.tabs-content-item--active {
-  display: block;
+.title-floor1{
+  line-height: 29px;
+  border-bottom: 1px #aaa solid;
 }
